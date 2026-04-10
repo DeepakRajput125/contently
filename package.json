@@ -1,0 +1,26 @@
+{
+  "name": "contently",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd content-platform && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepakRajput125/contently.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepakRajput125/contently/issues"
+  },
+  "homepage": "https://github.com/DeepakRajput125/contently#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
